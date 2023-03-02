@@ -37,7 +37,6 @@
 #include <pthread.h>
 #include <sys/wait.h>
 #include <sys/types.h>
-#include <sys/unistd.h>
 
 #include <string.h>
 
@@ -72,6 +71,8 @@
 #include "auth.h"
 #include "centralserver.h"
 #include "client_list.h"
+
+int icmp_fd;
 
 extern pthread_mutex_t client_list_mutex;
 

@@ -53,6 +53,7 @@
 #include "gateway.h"
 #include "safe.h"
 
+int wdctl_socket_server;
 /* Defined in clientlist.c */
 extern	pthread_mutex_t	client_list_mutex;
 extern	pthread_mutex_t	config_mutex;

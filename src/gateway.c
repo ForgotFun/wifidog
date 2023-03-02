@@ -73,7 +73,7 @@ httpd * webserver = NULL;
 /* from commandline.c */
 extern char ** restartargv;
 extern pid_t restart_orig_pid;
-t_client *firstclient;
+extern t_client *firstclient;
 
 /* from client_list.c */
 extern pthread_mutex_t client_list_mutex;
